@@ -1,0 +1,8 @@
+/nbproject
+/.vscode
+/dev
+/typings
+node_modules/
+yarn.lock
+.history/
+*.map

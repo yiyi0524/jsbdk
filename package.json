@@ -1,0 +1,28 @@
+{
+    "name": "jsbdk",
+    "version": "0.1.0",
+    "keywords": [
+        ""
+    ],
+    "description": "buffge js dev kit",
+    "author": "buff",
+    "email": "admin@buffge.com",
+    "private": true,
+    "function": "",
+    "contributors": [],
+    "dependencies": {},
+    "miniprogram": "dist",
+    "main": "dist/index.js",
+    "scripts": {
+        "init": "",
+        "start": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/buffge/jsbdk"
+    },
+    "license": "GPL",
+    "devDependencies": {
+        "typescript": "^3.3.3333"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        // "strictNullChecks": true,
+        "noImplicitAny": true,
+        "module": "es2015",
+        "target": "es5",
+        "allowJs": true,
+        "experimentalDecorators": true,
+        // "noImplicitThis": true,
+        // "noImplicitReturns": true,
+        "alwaysStrict": true,
+        // "inlineSourceMap": false,
+        // "inlineSources": false,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "removeComments": true,
+        "pretty": true,
+        "sourceMap": true,
+        "typeRoots": [
+            "index.d.ts"
+        ],
+        "outDir": "dist",
+        "lib": [
+            "dom",
+            "es5",
+            "es6",
+        ]
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "miniprogram_dist",
+        "**/*.spec.ts",
+        ".history"
+    ]
+}
